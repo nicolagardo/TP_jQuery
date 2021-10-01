@@ -2,3 +2,24 @@ body{
     background-color:rgb(50, 132, 160) ;
     font-family: 'Mukta', sans-serif;
 }
+h1 { 
+    cursor:move;
+    height: 150px;
+    padding: 1em;
+    width: 300px;
+    text-align:center;
+  }
+h2{
+    color: rgb(241, 60, 60);
+}
+
+#clickAction{
+    background:red;
+    border-radius:3px;
+    color:white;
+    cursor:pointer;
+    padding:1em;
+  }
+  #clickAction.blue{
+    background:blue;
+  }
