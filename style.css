@@ -1,16 +1,17 @@
 body{
     background-color:rgb(50, 132, 160) ;
     font-family: 'Mukta', sans-serif;
+    font-size:40px;
 }
-h1 { 
-    cursor:move;
-    height: 150px;
-    padding: 1em;
-    width: 300px;
-    text-align:center;
-  }
-h2{
-    color: rgb(241, 60, 60);
+h1{
+    text-align: center;
+    font-size:50px;
+}
+img{
+    display:block;margin:0 auto 0 auto;
+}
+#arrastrable{
+    cursor: pointer;
 }
 
 #clickAction{
