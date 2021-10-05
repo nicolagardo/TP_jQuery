@@ -36,37 +36,74 @@
         </div>
         <button class="aBk" id="c1">Probar efectos</button>
         <br>
-    <p> jQuery es una popular biblioteca de JavaScript. Fue creada por John Resig en el 2006 con el objetivo de facilitarle el uso de JavaScript en los sitios web a los desarrolladores.
+    <p> jQuery es una popular librería de JavaScript. Fue creada por John Resig en el 2006 con el objetivo de facilitarle el uso de JavaScript en los sitios web a los desarrolladores.
         jQuery comprime varias líneas de código en una sola función, de forma que no es necesario volver a escribir bloques enteros de código para lograr una sola tarea
     </p>
+    <p>jQuery es software libre y de código abierto, posee un doble licenciamiento bajo la Licencia MIT y la Licencia Pública General de GNU v2, permitiendo su uso en proyectos libres y privados.4​ jQuery, al igual que otras librerías, ofrece una serie de funcionalidades basadas en JavaScript que de otra manera requerirían de mucho más código, es decir, 
+        con las funciones propias de esta librería se logran grandes resultados en menos tiempo y espacio.</p>
+
+
     
-        <h2 id="clickAction">¿Qué es y para qué usar JQuery?</h2>
+        <h2>Acordeón</h2>
+        <h3>
+            
+            Este es uno de los widgets de JQuery UI más populares.
+            Permite mostrar contenido relacionado en forma de filas, que se expanden al dar clic en ellas.
+            En el siguiente ejemplo mostramos un widget que solo posee tres filas.
+        </h3>
 
     <div id="acordeon">
-        <h3>Seccion 1</h3>
+        <h3>Sintaxis de jQuery</h3>
         <div>
             <p>
-                jQuery es una popular biblioteca de JavaScript. Fue creada por John Resig en el 2006 con el objetivo de facilitarle el uso de JavaScript en los sitios web a los desarrolladores.
-                jQuery comprime varias líneas de código en una sola función, de forma que no es necesario volver a escribir bloques enteros de código para lograr una sola tarea
+                La sintaxis de jQuery se basa en el objeto jQuery o $().
+                 Este objeto tiene sus métodos, por lo que la forma más común sería la siguiente:
+                <br>
+                <strong>$("selector").metodo(argumentos);</strong> 
+                <br><br>
+                <p>En esta sintaxis básica observamos las siguientes partes: </p>
+                <ul>
+                    <li>El objeto jQuery al principio $(), indicado por el signo "dolar" seguido de un paréntesis. </li>
+                    <li>Al objeto jQuery se le pasa como argumento (dentro del paréntesis) un "selector", que buscará en 
+                    la página uno o varios elementos para trabajar con ellos.</li>
+                    <li>le sigue un método del objeto jQuery. para ello escribimos primero un punto, después el nombre 
+                    del método, y luego entre paréntersis los argumentos.</li>
+                    <li>los argumentos (dentro del paréntesis) que se le pasan al método pueden ser muy variados, desde algunos métodos 
+                    que no requieren argumentos a otros en los que podemos poner funciones anónimas que incluyan otros
+                    métodos.</li>
+                    <li>La misma estructura "document ready" se basa en este esquema. En el argumento del método "ready"
+                    ponemos una función anónima, en la cual escribimos el resto del código, volviendo a repetir este esquema.</li>
+                    
+                    </ul> <br><br>
+                
             </p>
         </div>
-        <h3>Función</h3>
+        <h3>Funciones</h3>
         <div>
-            
-                <code>
-                    $("#draggable").draggable();
-                </code>
-            
+            <strong>Metodo draggable:</strong> 
+                <br>
+                $("#draggable").draggable();
+                <br><br>
+            <strong>Metodo acordeón:</strong> 
+            <br>
+            $( "#acordeon" ).accordion();
         </div>
         <h3>Librería jQuery</h3>
         <div>
-            hola
-            <code>&lt;script src="js/<strong>jquery-3.2.1.min.js</strong>"&gt;&lt;/script&gt; </code>
-            <ul>
-            <li>List item one</li>
-            <li>List item two</li>
-            <li>List item three</li>
-            </ul>
+            <strong>Distribución</strong> 
+            <p>Ejemplo de vinculación de una copia de la librería localmente (desde el mismo servidor que aloja la página web):
+            </p>
+            <p><code>&lt;script src="jquery.js"&gt;&lt;/script&gt;</code>
+            </p>
+            <p>La Librería JQuery normalmente se distribuye como un único archivo JavaScript que define todas sus interfaces, incluidas las funciones DOM, Eventos y Ajax. 
+                Se puede incluir dentro de una página web al vincularlo a una copia local, o al vincularlo a una de las muchas copias disponibles en los servidores públicos. 
+                JQuery tiene una red de entrega de contenido (conocido popularmente como <i>CDN</i>) alojada por MaxCDN.​ Google en el servicio Google Hosted Libraries y Microsoft también alojan la librería.​
+            </p>
+            <p><strong>Ejemplo de vinculación de una copia de la librería remotamente (a través del CDN propio de JQuery):</strong> 
+            </p>
+            <p><code>&lt;script src="<a rel="nofollow" class="external free" href="https://code.jquery.com/jquery-3.4.0.min.js">https://code.jquery.com/jquery-3.4.0.min.js</a>" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"&gt;&lt;/script&gt;</code>
+            </p>
+            
         </div>
         
 

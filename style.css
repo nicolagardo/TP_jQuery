@@ -29,6 +29,10 @@ h1{
     text-align: center;
     font-size:50px;
 }
+h2{
+    font-size:50px;
+    background-color: cornsilk;
+}
 img{
     display:block;margin:0 auto 0 auto;
 }
