@@ -1,7 +1,8 @@
 body{
-    background-color:rgb(50, 132, 160) ;
+    background: linear-gradient(to bottom right, blue, rgb(29, 197, 248), blue, rgb(29, 197, 248), blue , rgb(29, 197, 248));
     font-family: 'Mukta', sans-serif;
     font-size:40px;
+    
 }
 #capa1 {
     width: 250px;
@@ -15,6 +16,7 @@ body{
     margin: 12px 0px; width: 260px; height: 112px; position: relative; left: -0.000375px; top: 0px;
     font-size: large;
     background-color: cornsilk;
+    color: black;
 
 
 }
@@ -28,16 +30,30 @@ body{
 h1{
     text-align: center;
     font-size:50px;
+    margin: 10px 300px;
+    display: flex; justify-content: center;
+
+    
 }
 h2{
     font-size:50px;
-    background-color: cornsilk;
+    background-color: black;
+    margin: 10px 300px;
+    display: flex; justify-content: center;
+    color:white;
+  
+}
+p{
+    color:white
 }
 img{
     display:block;margin:0 auto 0 auto;
 }
 #arrastrable{
     cursor: pointer;
+}
+#css-acordeon{
+    color: black;
 }
 
 #clickAction{
