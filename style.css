@@ -3,9 +3,35 @@ body{
     font-family: 'Mukta', sans-serif;
     font-size:40px;
 }
+#capa1 {
+    width: 250px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: cornsilk;
+    float: auto;
+    font-size: xx-large;
+    }
+#effect{
+    margin: 12px 0px; width: 260px; height: 112px; position: relative; left: -0.000375px; top: 0px;
+    font-size: large;
+    background-color: cornsilk;
+
+
+}
+#dropzone {
+    top: 150px;
+    width: 200px;
+    height: 200px;
+    background: cyan;
+    border: solid 1px;
+}
 h1{
     text-align: center;
     font-size:50px;
+}
+h2{
+    font-size:50px;
+    background-color: cornsilk;
 }
 img{
     display:block;margin:0 auto 0 auto;
